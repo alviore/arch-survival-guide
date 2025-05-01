@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -46,12 +47,21 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'stylesheet', href: '/theme/custom.css' }],
     ['meta', { name: 'keywords', content: 'Arch Linux安装教程, Pacman包管理, 滚动更新系统, Linux故障排除, 终端命令实录, AUR使用指南, systemd配置, 开发者环境优化, KISS原则实践, 中文Linux文档' }],
     ['meta', { name: 'author', content: 'DotCube' }],
     ['meta', { name: 'robots', content: 'index,follow' }],
 
   ],
+  markdown: {
+    config(md) {
+      md.use(groupIconMdPlugin)
+    }
+  },
+  vite: {
+    plugins: [
+      groupIconVitePlugin()
+    ]
+  }
 })
 
 

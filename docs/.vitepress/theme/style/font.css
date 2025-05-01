@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Segoe UI Emoji";
+    src: url("/fonts/seguiemj.ttf");
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src:
+    url('/fonts/misans/misans-thin/0.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src:
+    url('/fonts/misans/misans-extralight/0.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src:
+    url('/fonts/misans/misans-light/0.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src:
+    url('/fonts/misans/misans-normal/0.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src:
+    url('/fonts/misans/misans-medium/0.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src:
+    url('/fonts/misans/misans-semibold/0.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --vp-font-family-base: 'MiSans', system-ui, -apple-system, sans-serif;
+    --vp-font-family-mono: 'JetBrains Mono', 'MiSans', monospace;
+}
+
+body {
+    font-family: var(--vp-font-family-base);
+}
+
+code, kbd, pre, samp {
+    font-family: var(--vp-font-family-mono);
+}
