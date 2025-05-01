@@ -30,7 +30,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 协议</a>',
+      message: '无特殊声明采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 协议</a>',
       copyright: '由 <a href="https://dotcube.cc" target="_blank">DotCube</a> 与 ❤️️ 制作'
     },
 
