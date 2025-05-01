@@ -42,7 +42,7 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/dotcubecn/arch-survival-guide/edit/main/docs/:path',
-      text: '在 Github 上编辑'
+      text: '在 Github 上编辑此页'
     }
   },
 
@@ -50,7 +50,11 @@ export default defineConfig({
     ['meta', { name: 'keywords', content: 'Arch Linux安装教程, Pacman包管理, 滚动更新系统, Linux故障排除, 终端命令实录, AUR使用指南, systemd配置, 开发者环境优化, KISS原则实践, 中文Linux文档' }],
     ['meta', { name: 'author', content: 'DotCube' }],
     ['meta', { name: 'robots', content: 'index,follow' }],
-
+    ['script', {
+      defer: true,
+      src: 'https://analytics.dotcube.cc/script.js',
+      'data-website-id': 'fab790de-1016-4f87-b7c0-bc2608be1830'
+    }]
   ],
   markdown: {
     config(md) {
