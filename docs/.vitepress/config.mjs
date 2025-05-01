@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Arch Linux 生存指南",
-  description: "Arch Linux全流程生存指南：从零安装到深度优化，覆盖系统配置、故障修复与效能调优，提供可视化终端实录+模块化学习路径，遵循KISS原则持续同步官方更新，构建你的极简Linux工作流",
+  description: "Arch Linux 生存指南：新手安装教程与疑难解答，涵盖系统调优技巧及滚动更新维护方案，提供持续更新的中文实践文档",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -46,7 +46,11 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'stylesheet', href: '/theme/custom.css' }]
+    ['link', { rel: 'stylesheet', href: '/theme/custom.css' }],
+    ['meta', { name: 'keywords', content: 'Arch Linux安装教程, Pacman包管理, 滚动更新系统, Linux故障排除, 终端命令实录, AUR使用指南, systemd配置, 开发者环境优化, KISS原则实践, 中文Linux文档' }],
+    ['meta', { name: 'author', content: 'DotCube' }],
+    ['meta', { name: 'robots', content: 'index,follow' }],
+
   ],
 })
 

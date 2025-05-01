@@ -5,6 +5,9 @@ layout: home
 hero:
   name: "Arch Linux 生存指南"
   tagline: ❤️️ 爱上自由软件
+  image:
+    src: /images/picon.svg
+    alt: archlinux
   actions:
     - theme: brand
       text: 📖 开始阅读
