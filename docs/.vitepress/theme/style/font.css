@@ -1,52 +1,49 @@
 @font-face {
     font-family: "Segoe UI Emoji";
-    src: url("/fonts/seguiemj.ttf");
+    src:
+    local("Segoe UI Emoji"),
+    url("/fonts/seguiemj.ttf") format("truetype");
 }
 
+/* 保留你原有的 MiSans 和 JetBrains Mono 配置 */
 @font-face {
     font-family: 'MiSans';
-    src:
-    url('/fonts/misans/misans-thin/0.woff2') format('woff2');
+    src: url('/fonts/misans/misans-thin/0.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MiSans';
-    src:
-    url('/fonts/misans/misans-extralight/0.woff2') format('woff2');
+    src: url('/fonts/misans/misans-extralight/0.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MiSans';
-    src:
-    url('/fonts/misans/misans-light/0.woff2') format('woff2');
+    src: url('/fonts/misans/misans-light/0.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MiSans';
-    src:
-    url('/fonts/misans/misans-normal/0.woff2') format('woff2');
+    src: url('/fonts/misans/misans-normal/0.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MiSans';
-    src:
-    url('/fonts/misans/misans-medium/0.woff2') format('woff2');
+    src: url('/fonts/misans/misans-medium/0.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MiSans';
-    src:
-    url('/fonts/misans/misans-semibold/0.woff2') format('woff2');
+    src: url('/fonts/misans/misans-semibold/0.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
 }
@@ -59,8 +56,18 @@
 }
 
 :root {
-    --vp-font-family-base: 'MiSans', system-ui, -apple-system, sans-serif;
-    --vp-font-family-mono: 'JetBrains Mono', 'MiSans', monospace;
+    --vp-font-family-base:
+    'MiSans',
+    system-ui,
+    -apple-system,
+    'Segoe UI Emoji',
+    'Apple Color Emoji',
+    'Noto Color Emoji',
+    sans-serif;
+    --vp-font-family-mono:
+    'JetBrains Mono',
+    'MiSans',
+    monospace;
 }
 
 body {
