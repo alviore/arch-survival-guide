@@ -1,0 +1,45 @@
+----------------------------------------------------------------
+            LICENSE DECLARATION (MACHINE TRANSLATED)
+----------------------------------------------------------------
+This is an English translation for reference only.
+The legally binding version is the original Chinese text in /LICENSE.
+
+1. Code Components (Apache-2.0)
+Scope:
+- All source code in root directory (excluding /docs)
+- Code in /docs/.vitepress directory
+
+2. Original Documentation (CC-BY-NC-SA-4.0)
+Scope:
+- Unmarked content in /docs directory
+- Includes documents, sample code, and diagrams
+License Text: LICENSE-CC-BY-NC-SA-4.0
+
+3. GFDL Licensed Content (GFDL-1.3-or-later)
+Scope:
+- Content explicitly marked as from ArchWiki/international variants
+License Text: LICENSE-GFDL-1.3-OR-LATER
+
+4. Third-party Content
+Scope:
+- Content marked with "Reproduced" identifiers
+
+----------------------------------------------------------------
+                      COMPLIANCE REQUIREMENTS
+----------------------------------------------------------------
+(1) Physical Isolation Principle
+- Store differently licensed content in separate directories
+- Prohibit cross-directory content mixing
+
+(2) Derivative Work Restrictions
+- GFDL modifications require transparent copy retention
+- Commercial redistribution prohibited for CC-BY-NC-SA content
+
+(3) Disclaimer
+- This project assumes no liability for third-party content compliance
+- Users must conduct independent legal verification
+
+(Last updated: 2025-05-01)
+
+WARNING: This machine translation has no legal validity.
+Always consult the original Chinese LICENSE file for binding terms.
