@@ -40,7 +40,7 @@ export default defineConfig({
     returnToTopLabel: "回到顶部",
 
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/dotcubecn/arch-survival-guide/edit/main/docs/:path',
       text: '在 Github 上编辑'
     }
   },
